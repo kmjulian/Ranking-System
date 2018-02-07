@@ -10,7 +10,7 @@ class User_model extends CI_Model
 
 	function get_data($username, $password)
 	{
-		$this -> db	->select('user_id, user_username, user_password')
+		$this -> db	->select('user_id, user_position, user_username, user_password')
 					->from('user')
 					->where('user_username', $username)
 					->where('user_password', $password)

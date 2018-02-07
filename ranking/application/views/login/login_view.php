@@ -15,7 +15,7 @@
 				<center><div class="form-group">
 					<label class="form-group">Password</label>
 					<div class="form-controls">
-						<input type="text" name="password" class="input-xlarge"/>
+						<input type="password" name="password" class="input-xlarge"/>
 					</div>
 				</div></center>
 

@@ -9,7 +9,7 @@ class Login extends CI_Controller
 
 	function index() 
     {
-        $this->form_validation->set_rules('username', 'Username', 'trim|required');
+        $this->form_validation->set_rules('username', 'Username', 'trim|required'); //constraints
         $this->form_validation->set_rules('password', 'Password', 'required|callback_check_database');
         
 
@@ -17,11 +17,27 @@ class Login extends CI_Controller
         {
 			$this->load->view('login/header_view');
 			$this->load->view('login/login_view');
-			$this->load->view('login/footer_view');
         } 
         else 
         {
-            redirect('dashboard', 'refresh');
+            $sess_data = $this->session->userdata('logged in');
+            $position = $sess_data['Position'];  
+            if($position == 'Admin' || $position == 'admin')
+            {
+                redirect('admin', 'refresh'); //controller lagi pag redirect
+            }
+            else if($position == 'Teacher' ||$position == 'teacher')
+            {
+                redirect('teacher', 'refresh');
+            }
+            else if($position == 'Student' ||$position == 'student')
+            {
+                redirect('student', 'refresh');
+            }
+            else if($position == 'School' ||$position == 'school')
+            {
+                redirect('teacher', 'refresh');
+            }
         } 
 	}
 	
@@ -41,10 +57,13 @@ class Login extends CI_Controller
 				   'UserID'   => $row->user_id,
 				   'Username' => $row->user_username,
 				   'Password' => $row->user_password,
+				   'Position' => $row->user_position
+
 			   );
 		   
 			   $this->session->set_userdata('logged in', $sess_array);
-			   $sess_data = $this->session->userdata('logged in');       
+			   $sess_data = $this->session->userdata('logged in');
+			   $position = $sess_data['Position'];        
 		   }
 		   return TRUE;
 	   } 
@@ -54,6 +73,22 @@ class Login extends CI_Controller
 		   return FALSE;
 	   }
    } 
+
+   function logout()
+   {
+   		$sess_data = $this->session->userdata('logged in');
+        $userid = $sess_data['UserID'];
+        $username = $sess_data['Username'];
+        $password = $sess_data['Password'];
+        $position = $sess_data['Position'];
+
+        $this->session->unset_userdata($userid);
+        $this->session->unset_userdata($username);
+        $this->session->unset_userdata($password);
+        $this->session->unset_userdata($position);
+        $this->session->sess_destroy();
+        redirect('login','refresh');
+   }
 	
 }
 
