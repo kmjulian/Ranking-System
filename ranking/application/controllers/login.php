@@ -36,7 +36,15 @@ class Login extends CI_Controller
             }
             else if($position == 'School' ||$position == 'school')
             {
-                redirect('teacher', 'refresh');
+                redirect('school', 'refresh');
+            }
+            else if($position == 'District' ||$position == 'district')
+            {
+                redirect('district', 'refresh');
+            }
+            else if($position == 'Regional' ||$position == 'regional')
+            {
+                redirect('regional', 'refresh');
             }
         } 
 	}

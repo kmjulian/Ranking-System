@@ -1,0 +1,18 @@
+3RD MEETING WITH SIR TOTI (make up class)
+
+- LRN: unique student number of each pupil
+- Define the problem before proposing a solution
+- Make the database flexible for the next batch 
+	*convert to cxb*
+- Be careful with words when we talk
+- Always have a plan B
+- We need to fill the gap of time delay
+- BOARD EXAM RESULTS
+
+NEEDS:
+DATASET, PROCESS FLOW, (how does the data flow from school to depEd)
+How fast do they get the results
+
+THINGS TO CONSIDER (for the grading system)
+- law
+- memorandum order 
