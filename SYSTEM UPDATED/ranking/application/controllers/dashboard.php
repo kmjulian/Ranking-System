@@ -28,7 +28,6 @@ class Dashboard extends CI_Controller
 				$this->load->view('extra/html_close');
 			}
 		}
-	}
 
 	public function logout(){
 		session_destroy();
