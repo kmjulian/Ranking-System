@@ -1,3 +1,7 @@
+div {
+  display: block;
+  
+}
 html {
   position: relative;
   min-height: 100%;
@@ -22,6 +26,8 @@ body.fixed-nav {
 .content-wrapper {
   min-height: calc(100vh - 56px);
   padding-top: 1rem;
+  overflow-x: hidden;
+  background: white;
 }
 
 .scroll-to-top {
@@ -475,4 +481,19 @@ footer.sticky-footer {
   body.sidenav-toggled footer.sticky-footer {
     width: calc(100% - 55px);
   }
+}
+
+@media (min-width: 992px) {}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
+  background: #343a40;
+}
+
+@media (min-width: 992px) {
+#mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level, #mainNav .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
+    padding-left: 0;
+    list-style: none;
+}
+
+#mainNav .navbar-collapse .navbar-sidenav .sidenav-second-level, #mainNav .navbar-collapse .navbar-sidenav .sidenav-third-level {
+    padding-left: 0;
 }
