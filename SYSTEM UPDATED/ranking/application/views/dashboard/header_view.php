@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,11 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-<<<<<<< HEAD
-  <title>Ranking / Admin</title>
-=======
 
->>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15
   <!-- Bootstrap core CSS-->
   <link href="bootstrap-theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
@@ -37,37 +32,6 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
 
-<<<<<<< HEAD
-
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="c_regional">
-            <span class="nav-link-text">Create Regional Account</span>
-          </a>
-        </li>
-       <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="c_division">
-            <span class="nav-link-text">Create Division Account</span>
-          </a>
-        </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="c_guidance">
-            <span class="nav-link-text">Create Guidance Account</span>
-          </a>
-        </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="c_teacher">
-            <span class="nav-link-text">Create Teacher Account</span>
-          </a>
-        </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="c_student">
-            <span class="nav-link-text">Create Student Account</span>
-          </a>
-        </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="v_regional_accts">
-            <span class="nav-link-text">View Regional Accounts</span>
-=======
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title data-original-title="Admin">
           <a class="nav-link" href="admin">
             <i class="fa fa-fw fa-dashboard">
@@ -77,7 +41,7 @@
         </li>
 
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title data-original-title="Charts">
-          <a class="nav-link" href="charts">
+          <a class="nav-link" href="adcharts">
             <i class="fa fa-fw fa-area-chart">
             </i>
             <span class="nav-link-text">Charts</span>
@@ -85,7 +49,7 @@
         </li>
 
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title data-original-title="Tables">
-          <a class="nav-link" href="tables">
+          <a class="nav-link" href="adtables">
             <i class="fa fa-fw fa-table">
             </i>
             <span class="nav-link-text">Tables</span>
@@ -96,8 +60,7 @@
           <a class="nav-link nav-link-collapse" data-toggle="collapse" href="#collapseCreate" data-parent="exampleAccordion" aria-expanded="true">
             <i class="fa fa-fw fa-user">
             </i>
-            <span class="nav-link-text">Create Account</span>
->>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15
+            <span class="nav-link-text">Registration</span>
           </a>
           <ul class="sidenav-second-level collapse show" id="collapseCreate" style>
             <li>
@@ -135,11 +98,6 @@
             </form>
           </li>
 
-<<<<<<< HEAD
-
-
-
-=======
           <li class="nav-item">
             <a class="nav-link" href="<?=site_url('login/logout')?>">
               <i class="fa fa-fw fa-sign-out"></i>Logout</a>
@@ -148,4 +106,3 @@
         </ul>
       </div>
     </nav>
->>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15

@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 <div class="container bg">
 	<div class="row">
 		<center><div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 100px; padding-right: 100px; width:500px; height: 700px;">
 			
 		<form class="form-container" method="post" action="?">
-				<center><h2>Login</h2></center>
-=======
+
 <body>
   <div class="container">
     <div class="imgBx">
@@ -14,7 +12,6 @@
     <div class="loginBox">
       <form class="form-container" method="post" action="?">
       <center><h2>Login</h2></center>
->>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15
 
       <br>
           

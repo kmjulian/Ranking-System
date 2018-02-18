@@ -25,7 +25,6 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <a class="navbar-brand" href="teacher">Teacher</a>
-    
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,7 +40,7 @@
           </a>
         </li>
 
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title data-original-title="Charts">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title data-original-title="tcCharts">
           <a class="nav-link" href="tccharts">
             <i class="fa fa-fw fa-area-chart">
             </i>
@@ -49,7 +48,7 @@
           </a>
         </li>
 
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title data-original-title="Tables">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title data-original-title="tcTables">
           <a class="nav-link" href="tctables">
             <i class="fa fa-fw fa-table">
             </i>
@@ -61,7 +60,7 @@
           <a class="nav-link nav-link-collapse" data-toggle="collapse" href="#collapseCreate" data-parent="exampleAccordion" aria-expanded="true">
             <i class="fa fa-fw fa-user">
             </i>
-            <span class="nav-link-text">Registration</span>
+            <span class="nav-link-text">Create Account</span>
           </a>
           <ul class="sidenav-second-level collapse show" id="collapseCreate" style>
             <li>
