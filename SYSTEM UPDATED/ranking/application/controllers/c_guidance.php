@@ -2,6 +2,7 @@
 
 class C_Guidance extends CI_Controller
 {
+<<<<<<< HEAD
 	function __construct()
     {
         parent:: __construct();
@@ -80,5 +81,12 @@ class C_Guidance extends CI_Controller
 			$this->cguidance_model->insert_guidance_details($guidance_details);
         }
 
+=======
+	function index()
+	{
+		$this->load->view('dashboard/header_view');
+		$this->load->view('dashboard/c_guidance_view');
+		$this->load->view('dashboard/footer_view');
+>>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15
 	}
 }

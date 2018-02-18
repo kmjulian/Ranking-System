@@ -3,7 +3,11 @@
     <h1 class="well">Create Student Account</h1>
   <div class="col-lg-12 well">
   <div class="row">
+<<<<<<< HEAD:SYSTEM UPDATED/ranking/application/views/dashboard/c_student_view.php
         <?php echo form_open('c_student/create_student_acct');?>
+=======
+        <?php echo form_open('admin/cia_form_submit');?>
+>>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15:SYSTEM UPDATED/ranking/application/views/dashboard/c_student_view.php
           <div class="col-sm-12">
             <div class="row">
               <div class="col-sm-4 form-group">
@@ -37,7 +41,14 @@
                   <option value="female">Female</option>
                 </select>
           </div>         
+<<<<<<< HEAD:SYSTEM UPDATED/ranking/application/views/dashboard/c_student_view.php
            
+=======
+            <div class="form-group">
+              <label>Address</label>
+              <textarea placeholder="Address" name="address" rows="1" class="form-control"></textarea>
+            </div>  
+>>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15:SYSTEM UPDATED/ranking/application/views/dashboard/c_student_view.php
            <div class="row">
               <div class="form-group col-sm-6">
                  <label>Region</label>
@@ -76,6 +87,7 @@
                 <label>Zip Code</label>
                 <input type="text" placeholder="Zip" name="zip" class="form-control">
               </div>    
+<<<<<<< HEAD:SYSTEM UPDATED/ranking/application/views/dashboard/c_student_view.php
             </div>  
               <div class="row">
               <div class="col-sm-6 form-group">
@@ -87,6 +99,9 @@
                 <input type="text" placeholder="(ex. Bangkal)" name="barangay" class="form-control">
               </div>  
             </div>     
+=======
+            </div>      
+>>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15:SYSTEM UPDATED/ranking/application/views/dashboard/c_student_view.php
             <div class="row">
               <div class="col-sm-6 form-group">
                 <label>Username</label>
@@ -132,7 +147,7 @@
   </div>
   </div>
     <!-- /#page-wrapper -->
-  </div>
+  
   <!-- /#wrapper -->
 
   </div>

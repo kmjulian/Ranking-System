@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 class C_teacher extends CI_Controller
 {
 	function __construct()
@@ -80,5 +81,13 @@ class C_teacher extends CI_Controller
 			$this->cteacher_model->insert_teacher_details($teacher_details);
         }
 
+=======
+class C_Teacher extends CI_Controller
+{
+	function index()
+	{
+		$this->load->view('dashboard/header_view');
+		$this->load->view('dashboard/c_teacher_view');
+>>>>>>> f8947a18a05ec3d77b7e0026dc5eec96e179ff15
 	}
 }
