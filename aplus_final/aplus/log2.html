@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/location.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+    <h1 class="welcome text-center">Welcome to A+</h1>
+        <div class="card card-container">
+        <h2 class='login_title text-center'>Location</h2>
+        <hr>
+
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+
+                <p class="input_title">Region</p>
+                 <select name="region" class="form-control">
+                  <option selected="true" disabled="disabled" >-- Select Region --</option>
+                  <option value="saab">Region 1</option>
+                  <option value="fiat">Region 2</option>
+                  <option value="audi">Region 3</option>
+                </select></br>
+
+                 <p class="input_title">Province </p>
+                 <select name="province" class="form-control">
+                  <option selected="true" disabled="disabled">-- Select Province --</option>
+                  <option value="saab">Province 1</option>
+                  <option value="fiat">Province 2</option>
+                  <option value="audi">Province 3</option>
+                </select></br>
+
+                 <p class="input_title">City</p>
+                 <select name="city" class="form-control">
+                  <option selected="true" disabled="disabled">-- Select City --</option>
+                  <option value="saab">City 1</option>
+                  <option value="fiat">City 2</option>
+                  <option value="audi">City 3</option>
+                </select></br>
+
+                 <p class="input_title">Barangay</p>
+                 <select name="barangay" class="form-control">
+                  <option selected="true" disabled="disabled">-- Select Barangay --</option>
+                  <option value="saab">Barangay 1</option>
+                  <option value="fiat">Barangay 2</option>
+                  <option value="audi">Barangay 3</option>
+                </select></br>
+
+                 <p class="input_title">School</p>
+                 <select name="school" class="form-control">
+                  <option selected="true" disabled="disabled">-- Select School --</option>
+                  <option value="saab">School 1</option>
+                  <option value="fiat">School 2</option>
+                  <option value="audi">School 3</option>
+                </select>
+
+               </br>
+             
+            </form><!-- /form -->
+
+                <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-lg btn-primary" type="submit">Log In</button>
+
+                <button onclick="document.getElementById('id02').style.display='block'" class="btn btn-lg btn-primary" type="submit">Register as Student</button>
+
+
+                <!--Login-->
+                <div id="id01" class="modal">
+                  <form class="modal-content animate" action="/action_page.php">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="img/person.png" alt="Avatar" class="avatar">
+                    </div>
+
+                    <div class="container-modal">
+                      <label><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+
+                      <label><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <button type="submit" onclick="location.href='index.html'">Log In</button>
+                      <input type="checkbox" checked="checked"> Remember me
+                    </div>
+
+                    <div class="container-modal" style="background-color:#f1f1f1">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form>
+                </div>
+
+                <!--Register-->
+                <div id="id02" class="modal">
+                  <form class="modal-content animate" action="/action_page.php">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="img/person.png" alt="Avatar" class="avatar">
+                    </div>
+
+                    <div class="container-modal">
+                     <div class="col-sm-12">
+                     <div class="row">
+                        <div class="col-sm-6 form-group">
+                           <label>Education Level</label>
+                      <select name="educlvl" class="form-control">
+                            <option selected="true" disabled="disabled">-- Select Level --</option>
+                            <option value="elem">Elementary</option>
+                            <option value="hs">High School</option>
+                            <option value="shs">Senior High School</option>
+                          </select>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                          <label>Grade Level</label>
+                      <select name="grlvl" class="form-control">
+                            <option selected="true" disabled="disabled">-- Select Level --</option>
+                            <option value="gr1">Grade 1</option>
+                            <option value="gr2">Grade 2</option>
+                            <option value="gr3">Grade 3</option>
+                          </select>
+                        </div>
+                      </div>  
+                      <div class="row">
+                        <div class="col-sm-6 form-group">
+                          <label>First Name</label>
+                          <input type="text" placeholder="First Name" class="form-control">
+                        </div>
+                        <div class="col-sm-6 form-group">
+                          <label>Last Name</label>
+                          <input type="text" placeholder="Last Name" class="form-control">
+                        </div>
+                      </div>  
+                      <div class="form-group">
+                      <label>Gender</label>
+                      <select name="gender" class="form-control">
+                            <option selected="true" disabled="disabled">-- Select Gender --</option>
+                            <option value="female">Female</option>
+                            <option value="male">Male</option>
+                          </select>
+                    </div>         
+                      <div class="form-group">
+                        <label>Address</label>
+                        <textarea placeholder="Address" rows="3" class="form-control"></textarea>
+                      </div>  
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                          <label>Phone Number</label>
+                          <input type="text" placeholder="(ex. 09123456789)" class="form-control">
+                        </div>    
+                        <div class="col-sm-6 form-group">
+                          <label>Email Adress</label>
+                          <input type="text" placeholder="(ex. helloworld@gmail.com)" class="form-control">
+                        </div>  
+                      </div> 
+                      <div class="row">
+                        <div class="col-sm-6 form-group">
+                          <label>Username</label>
+                          <input type="text" placeholder="Username" class="form-control">
+                        </div>    
+                        <div class="col-sm-6 form-group">
+                          <label>Password</label>
+                          <input type="password" placeholder="Password" class="form-control">
+                        </div> 
+                      </div>
+                      <div class="form-group">
+                        <label>Generated Key</label>
+                        <input type="text" placeholder="Key" class="form-control">
+                      </div> 
+                      </div>
+
+                        
+                      <button type="submit" onclick="location.href='index.html'">Submit</button>
+                    </div>
+
+                    <div class="container-modal" style="background-color:#f1f1f1">
+                      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                    </div>
+                  </form>
+                </div>
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+
+   
+<script src="js/login.js"></script>
+
+</body>
+
+</html>

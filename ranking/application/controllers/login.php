@@ -11,6 +11,7 @@ class Login extends CI_Controller
     {
         $this->form_validation->set_rules('username', 'Username', 'trim|required'); //constraints
         $this->form_validation->set_rules('password', 'Password', 'required|callback_check_database');
+
         
 
         if ($this->form_validation->run() == false) 
@@ -38,9 +39,9 @@ class Login extends CI_Controller
             {
                 redirect('school', 'refresh');
             }
-            else if($position == 'Division' ||$position == 'division')
+            else if($position == 'District' ||$position == 'district')
             {
-                redirect('city', 'refresh');
+                redirect('district', 'refresh');
             }
             else if($position == 'Regional' ||$position == 'regional')
             {

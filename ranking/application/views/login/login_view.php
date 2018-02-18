@@ -1,7 +1,7 @@
 <div class="container bg">
 	<div class="row">
-		<center><div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 100px; padding-right: 100px; width:500px; height: 500px;">
-
+		<center><div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 100px; padding-right: 100px; width:500px; height: 700px;">
+			
 		<form class="form-container" method="post" action="?">
 				<center><h2>Login</h2></center>
 

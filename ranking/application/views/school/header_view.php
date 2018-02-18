@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Ranking / Guidance</title>
+  <title>SB Admin - Start Bootstrap Template</title>
   <!-- Bootstrap core CSS-->
   <link href="bootstrap-theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->

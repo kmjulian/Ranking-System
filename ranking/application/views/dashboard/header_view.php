@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,28 +20,42 @@
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.html">Admin</a>
+    <a class="navbar-brand" href="admin">Admin</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+
+
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="dashboard/dashboard_view">
-            <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Dashboard</span>
+          <a class="nav-link" href="c_regional">
+            <span class="nav-link-text">Create Regional Account</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-          <a class="nav-link" href="charts.html">
-            <i class="fa fa-fw fa-area-chart"></i>
-            <span class="nav-link-text">Charts</span>
+       <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_division">
+            <span class="nav-link-text">Create Division Account</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-          <a class="nav-link" href="tables.html">
-            <i class="fa fa-fw fa-table"></i>
-            <span class="nav-link-text">Tables</span>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_guidance">
+            <span class="nav-link-text">Create Guidance Account</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_teacher">
+            <span class="nav-link-text">Create Teacher Account</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_student">
+            <span class="nav-link-text">Create Student Account</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="v_regional_accts">
+            <span class="nav-link-text">View Regional Accounts</span>
           </a>
         </li>
       </ul>
@@ -52,5 +67,8 @@
       </ul>
     </div>
   </nav>
+
+
+
 
 
