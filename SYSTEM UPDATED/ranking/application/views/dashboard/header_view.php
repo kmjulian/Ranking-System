@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>SB Admin - Start Bootstrap Template</title>
+  <title>Ranking / Admin</title>
   <!-- Bootstrap core CSS-->
   <link href="bootstrap-theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
@@ -19,40 +20,42 @@
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.html">Admin</a>
+    <a class="navbar-brand" href="admin">Admin</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+
+
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="index.html">
-            <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Dashboard</span>
+          <a class="nav-link" href="c_regional">
+            <span class="nav-link-text">Create Regional Account</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
-          <a class="nav-link" href="charts.html">
-            <i class="fa fa-fw fa-area-chart"></i>
-            <span class="nav-link-text">Charts</span>
+       <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_division">
+            <span class="nav-link-text">Create Division Account</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-          <a class="nav-link" href="tables.html">
-            <i class="fa fa-fw fa-table"></i>
-            <span class="nav-link-text">Tables</span>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_guidance">
+            <span class="nav-link-text">Create Guidance Account</span>
           </a>
         </li>
-        <li class="nav-item dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-placement="right" title="Accounts">
-          <a class="nav-link" href="create.html">
-            <i class="fa fa-user"></i>
-            <span class="caret">  Create</span>
-            <a class="dropdown-item" href="<?=site_url('dashboard/cra')?>">Create Regional Account</a>
-            <a class="dropdown-item" href="#">Create Division Account</a>
-            <a class="dropdown-item" href="#">Create School Account</a>
-            <a class="dropdown-item" href="#">Create Guidance Account</a>
-            <a class="dropdown-item" href="#">Create Teacher Account</a>
-            <a class="dropdown-item" href="#">Create Student Account</a>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_teacher">
+            <span class="nav-link-text">Create Teacher Account</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="c_student">
+            <span class="nav-link-text">Create Student Account</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="v_regional_accts">
+            <span class="nav-link-text">View Regional Accounts</span>
           </a>
         </li>
       </ul>
@@ -64,5 +67,8 @@
       </ul>
     </div>
   </nav>
+
+
+
 
 
