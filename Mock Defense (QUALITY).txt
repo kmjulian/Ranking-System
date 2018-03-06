@@ -1,0 +1,23 @@
+MOCK DEFENSE (QUALITY)
+
+1. the test will be taken by individual student
+2. start ranking on how the student perform in the past after that you can rank all the student in all level, all the level to the other level of the other school
+3. anything you built on top of that can be built in equivalent ranking
+4. Context Level Diagram
+	- one that will do the test question
+	- to do the algorithm of the ranking of the other group
+5. Dont put the analytics in the moodle - it will overload, instead i-seperate mo
+6. Make 2 system: catch the data in the result of the moodle (that should be the logic)
+7. User management: who will access the data? There's gonna be some privacy.
+8. User access level: its data has another seperate entity
+9. Cloud: Upload all the test from a server, and the cloud will be downloaded
+10. Raspberry Pie: lets say there's no internet, you can share the information of raspberry file equally to all the classrooms. (but the problem is, you have a fast internet because moodle needs fast internet)
+11. Download it every terminal, answer it, then compile it.
+
+SCANNING:
+- give them a kind of test that ABCD even way of form, but if the scanner reads its I.D, it will know what kind of answers in there. (another cheap alternative)
+
+12. There's a scanning and moodle
+	- same principle as moodle but instead of capturing it by text, it will capture it by paper.
+
+13.
