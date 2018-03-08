@@ -1,0 +1,17 @@
+MOCK DEFENSE RECORDING (SOFTDEV)
+- the grading is there, but not the test (at yesha's)
+- exam is not automated as far the grading is concern
+- how would data set of the exam captured
+- i thought the idea there to make the exam to standardized to make sure it is uniform (from sir toti)
+- if the exam is not automated like the OMR or Moodle, the system of the grading has nothing to do with all
+- even if you already have the grades it's still doesn't said na its the same with the other school did.
+- if its done manually, they can still cheat
+- but if its done digitally, its captured already.
+- even tho the teacher who will be the one to input the grades of the student, it still doesn't prove anything in the other school
+- solution: OMR or Moodle
+- aside from ranking system, it have to provide moodle quarterly exam
+- in the electronic data set, i believe your ranking its accurate (from sir toti)
+- you will try to prove here is how accurate ranking is
+- ranking system is popoulation based
+- rank many schools in a district
+- historical data must not happen in just
