@@ -1,5 +1,0 @@
-Is there an existing ranking system? 
-If yes, How do you do it? (write everything down!) and kung pwede magpa request ng photo(screenshot) ng GUI non.
-If no, How would you like it to be? (ano yung mga gusto nilang makita sa webpages) 
-
-State our plan -> deliver a web-based ranking system
