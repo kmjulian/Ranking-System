@@ -1,0 +1,28 @@
+1. Rank individual by classroom
+2. Rank by classroom per batch
+ - can rank by subjects or total average
+3. Rank by batch per school
+4. Rank by different school (per city, per province, per region)
+
+* not only ranking the final grade, but also the exams (due to they have different sources and curriculum per school) -- results to different tables for that
+
+How do we rank it..
+- per subject per class
+- per subject accross the classes and then by level
+- by level
+- by district
+- by regional
+
+Rank the school based on the National Exam, thats what it gets from the other schools.
+
+Ranking of the other school is uniform, which every school has the same exam. (ex. NAT)
+
+We can have the different database from the Grading System group..
+- its just the end result for comparing lang
+
+ASSIGNMENT:
+Do the research about the different assessment exam/national exam for the schools (uniform)
+
+** TIME BOUND
+based on the student id, number to compare what section he belongs to (to compare from the Grading System)
+

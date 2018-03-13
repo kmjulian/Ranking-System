@@ -1,0 +1,12 @@
+- filter the data so that the school will only see their own results and not the other schools
+- need the organizational chart
+- enumerate the view in terms of decision making
+- organizational structure
+- credibility
+- make the data more meaningful
+- DASHBOARD!!
+- define the problem clearly to the authorities
+- comparison (explanation of the dashboard)
+- break down by classroom
+- nothing personal (just regarding credentials of the teachers)
+- organizational structure (basis ng dashboard)
