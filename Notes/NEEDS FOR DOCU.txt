@@ -1,23 +1,10 @@
-Introduction
-- Project Overview
-- Objectives (ellaborate more; in bullet form?)
-- Company Profile
-	* Brief Background
-	* Mission
-	* Vision
-- Problem Statement
-- Goals and Objectives of the System
-
 Manegerial Plan
-1. Start Up Plan
-	* Estimates (Estimated Cost na lang kulang)
-	* Staffing
-	* Procurement Plan (ayusin na lang)
+1. Start Up Plan 
 	* Project Staff Training
 2. Work Plan
-	* Resource Allocation
+	* WBS (need to revise)
+	* Resource Allocation (progress)
 3. Project Tracking Plan
-	* Requirements Management
 	* Budget Control
 	* Quality Control
 	* Project Metrics
