@@ -1,21 +1,26 @@
+Introducion
+1. Assumptions, Constraints, Risk (needs improvement or some changes)
+
+
 Manegerial Plan
-1. Start Up Plan 
+1. Start Up Plan
+	* Staffing (need start dates)
 	* Project Staff Training
 2. Work Plan
 	* WBS (need to revise)
-	* Resource Allocation (progress)
+	* Resource Allocation (finish and duration)
 3. Project Tracking Plan
 	* Budget Control
 	* Quality Control
 	* Project Metrics
-4. Rish Management Plan
-5. Project Close-Out Plan
+4. Rish Management Plan (need some addition and revisions)
+5. Project Close-Out Plan (kindly double check / might need some revisions)
 
 Technical Process Plans
 	* Process Model
 
 Supporting Process Plans
-	* Documentation
+	* Documentation (need target date)
 	* Process Improvement
 
 Cost Management Plan
