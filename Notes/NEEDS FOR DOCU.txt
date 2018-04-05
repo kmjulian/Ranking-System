@@ -5,7 +5,7 @@ Introducion
 Manegerial Plan
 1. Start Up Plan
 	* Staffing (need start dates)
-	* Project Staff Training
+	* Project Staff Training (need some revisions)
 2. Work Plan
 	* WBS (need to revise)
 	* Resource Allocation (finish and duration)
